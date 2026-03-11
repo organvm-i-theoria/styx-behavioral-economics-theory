@@ -1,0 +1,16 @@
+organ: I
+repo: styx-behavioral-economics-theory
+tier: standard
+status: ACTIVE
+produces:
+  - type: theory
+    description: "Behavioral economics models for peer-audited accountability"
+    consumers:
+      - organvm-ii-poiesis/styx-behavioral-art
+  - type: research
+    description: "Game-theoretic proofs and formal specifications"
+    consumers:
+      - organvm-iii-ergon/peer-audited--behavioral-blockchain
+subscriptions:
+  - event: theory.updated
+    action: notify
