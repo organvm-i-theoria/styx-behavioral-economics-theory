@@ -1,7 +1,11 @@
+schema_version: "1.0"
 organ: I
+organ_name: Theory
 repo: styx-behavioral-economics-theory
+org: organvm-i-theoria
 tier: standard
 status: ACTIVE
+ci_workflow: ci.yml
 produces:
   - type: theory
     description: "Behavioral economics models for peer-audited accountability"

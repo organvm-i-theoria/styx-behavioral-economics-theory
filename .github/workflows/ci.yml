@@ -1,0 +1,33 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate seed.yaml
+        run: python3 -c "import yaml; yaml.safe_load(open('seed.yaml'))"
+
+      - name: Validate markdown structure
+        run: |
+          test -f README.md
+          test -f seed.yaml
+          echo "All required files present"
+
+      - name: Lint markdown
+        uses: DavidAnson/markdownlint-cli2-action@v19
+        with:
+          globs: "**/*.md"
+          config: |
+            {
+              "MD013": false,
+              "MD033": false,
+              "MD041": false
+            }
