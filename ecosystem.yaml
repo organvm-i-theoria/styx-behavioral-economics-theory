@@ -1,0 +1,23 @@
+schema_version: '1.0'
+repo: styx-behavioral-economics-theory
+organ: I
+display_name: "Styx Theory — Behavioral economics models for peer-audited accountability"
+
+delivery:
+- platform: research_corpus
+  status: in_progress
+  priority: critical
+  notes: "Loss aversion coefficient 1.955, prospect theory, game-theoretic peer audit proofs"
+  next_action: "Complete formal specification of audit game theory"
+
+content:
+- platform: academic_writing
+  status: in_progress
+  priority: critical
+  notes: "Behavioral economics papers and formal proofs"
+  next_action: "Finalize loss aversion model paper"
+- platform: docs_site
+  status: not_started
+  priority: high
+  notes: "Theory reference consumed by ORGAN-II and ORGAN-III Styx repos"
+  next_action: "Document theory models for downstream consumers"
