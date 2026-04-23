@@ -9,6 +9,11 @@ delivery:
   priority: critical
   notes: "Loss aversion coefficient 1.955, prospect theory, game-theoretic peer audit proofs"
   next_action: "Complete formal specification of audit game theory"
+- platform: commerce_ui_handoff
+  status: live
+  priority: critical
+  notes: "Theory now feeds a live Styx Commerce UI in the ORGAN-III product repo"
+  next_action: "Keep theorem names, stake language, and audit terminology aligned with the live surface"
 
 content:
 - platform: academic_writing
@@ -17,7 +22,7 @@ content:
   notes: "Behavioral economics papers and formal proofs"
   next_action: "Finalize loss aversion model paper"
 - platform: docs_site
-  status: not_started
+  status: live
   priority: high
-  notes: "Theory reference consumed by ORGAN-II and ORGAN-III Styx repos"
-  next_action: "Document theory models for downstream consumers"
+  notes: "Theory reference now includes core models, orchestration notes, genesis verification, and syndication assets"
+  next_action: "Maintain parity with downstream product and publication surfaces"

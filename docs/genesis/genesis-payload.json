@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "repo": "styx-behavioral-economics-theory",
+  "organ": "I",
+  "org": "organvm-i-theoria",
+  "seed": {
+    "organ_name": "Theory",
+    "tier": "standard",
+    "status": "ACTIVE",
+    "ci_workflow": "ci.yml"
+  },
+  "initial_commit": {
+    "sha": "e8311a62d021d1d141c8db1e5b06c00397289ecc",
+    "tree": "cf95d4c776be8b22b3fe93445e87579f2743d388",
+    "timestamp": "2026-03-11T03:09:03-04:00",
+    "subject": "feat: initialize styx behavioral economics theory repo"
+  },
+  "verification_rule": "sha256(bytes_of_docs/genesis/genesis-payload.json)"
+}

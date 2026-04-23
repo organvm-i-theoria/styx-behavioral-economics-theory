@@ -25,6 +25,10 @@ theory & proofs              artistic visualization       product implementation
 - **I -> II**: Theory informs how behavioral dynamics are visualized -- loss aversion curves, audit network topology, feedback loop animations.
 - **I -> III**: Theory directly grounds product decisions -- staking tiers, penalty weights, demotion thresholds, Aegis safety caps.
 
+## Downstream State
+
+The downstream ORGAN-III consumer now exposes a live Styx Commerce UI in `peer-audited--behavioral-blockchain`, including the commitment wallet, simulated stake language, and integrity readouts that operationalize the models documented here. This repo remains the theory layer, but the theory is no longer hypothetical: it is actively consumed by a live product surface.
+
 ## Docs
 
 | Document | Scope |
@@ -32,6 +36,8 @@ theory & proofs              artistic visualization       product implementation
 | [behavioral-economics-foundations.md](docs/behavioral-economics-foundations.md) | Loss aversion, prospect theory, commitment devices, present bias |
 | [game-theoretic-accountability.md](docs/game-theoretic-accountability.md) | Fury audit mechanism design, dominant strategy proofs, reputation systems |
 | [spoof-resistance-models.md](docs/spoof-resistance-models.md) | Adversarial models, hardware immutability, multi-sensor correlation, HVCS |
+| [taxis-audit-orchestration.md](docs/taxis-audit-orchestration.md) | Simulated stake routing, audit-agent spawning, and orchestration boundaries |
+| [genesis-hash.md](docs/genesis-hash.md) | Canonical genesis payload and SHA-256 verification procedure |
 
 ## References
 
