@@ -4,7 +4,7 @@ Theoretical foundation for the Styx behavioral accountability platform. This is 
 
 ## What This Is
 
-This repo extracts, formalizes, and maintains the behavioral economics theory that grounds the [Styx](https://github.com/labores-profani-crux/peer-audited--behavioral-blockchain) peer-audited behavioral blockchain. Where the ORGAN-III product implements code, this repo holds the pure theory: the models, proofs, and formal specifications that justify why the system works.
+This repo extracts, formalizes, and maintains the behavioral economics theory that grounds the [Styx](https://github.com/a-organvm/peer-audited--behavioral-blockchain) peer-audited behavioral blockchain. Where the ORGAN-III product implements code, this repo holds the pure theory: the models, proofs, and formal specifications that justify why the system works.
 
 ## Key Theoretical Frameworks
 
