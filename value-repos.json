@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "description": "Repos promoted into the ranked value tier — discovered to hold concrete, build-out-worthy latent value.",
+  "ranked": [
+    {
+      "repo": "organvm/styx-behavioral-economics-theory",
+      "promoted": "2026-06-23",
+      "source": "auto-discovery",
+      "tier": "theory",
+      "value": "Functions as the immutable mathematical and behavioral bedrock that ensures the live platform's staking and penalty systems are theoretically sound and practically unexploitable.",
+      "first_task": "Formalize the audit game theory specification into a distributable, easily consumable research paper or API-accessible document that can be directly referenced by the live Styx Commerce UI.",
+      "thesis": "DISCOVERY.md"
+    }
+  ]
+}
